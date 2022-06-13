@@ -3,7 +3,11 @@ package src;
 import javax.swing.plaf.synth.SynthSpinnerUI;
 import java.util.Scanner;
 
-
+class person {
+    String name;
+    int age;
+    String sex;
+}
 public class myLearning {
 
     public static void main(String[] args){
@@ -72,20 +76,41 @@ public class myLearning {
         // String[] newString = {"Dot", "me", "m"};
         // System.out.println(newString[1]);
 
-        int[][] arr = {
-                {1, 2, 3},
-                {4, 5, 6},
-                {7, 8, 9},
-        };
-
-        for(int i = 0; i < arr.length; i++){
-            for(int j = 0; j < arr[i].length; j++){ 
-                System.out.println(arr[i][j] + "\t");
-            }
-            System.out.println();
-        }
+//        int[][] arr = {
+//                {1, 2, 3},
+//                {4, 5, 6},
+//                {7, 8, 9},
+//        };
+//
+//        for(int i = 0; i < arr.length; i++){
+//            for(int j = 0; j < arr[i].length; j++){
+//                System.out.println(arr[i][j] + "\t");
+//            }
+//            System.out.println();
+//        }
 
         // System.out.println(arr[1][1]);
+
+//        String[][] strs = new String[4][4];
+//
+////        strs[2] = new String[3];
+//
+//        strs[3][3] = "Hello World";
+//
+//        System.out.println(strs[3][3]);
+
+
+//        person Minh = new person();
+//        person Long = new person();
+//
+//        Minh.name = "Minh";
+//        Long.name = "Long";
+//
+//        Minh.age = 20;
+//        Long.age = 21;
+//
+//        System.out.println(Minh.name);
+
 
     }
 }
