@@ -13,4 +13,15 @@ public class formattedOutput {
         }
         System.out.println("================================");
     }
+
+    public static void Solution(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int n = scanner.nextInt();
+        int result = 0;
+        for(int i = 1; i < 11; i++){
+            result = n * i;
+            System.out.println(n + " x " + i + " = " + result);
+        }
+    }
 }
